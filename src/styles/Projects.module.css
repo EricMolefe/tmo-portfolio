@@ -1,0 +1,21 @@
+.projects-section {
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.projects {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 340px;
+    height: 80%;
+    background: linear-gradient(320deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+    border-radius: 0.6rem;
+    margin: auto 0;
+}
