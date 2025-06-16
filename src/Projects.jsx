@@ -11,10 +11,10 @@ function Projects() {
             <div className={styles.projects}>
             <div className={styles['project-card']}>
                     <div className={styles['project-img-container']}>
-                        <img className={styles['project-img']} src={project1IMG} alt="TMO Portfolio"/>
+                        <img className={styles['project-img']} src={project1IMG} alt="Project 1"/>
                     </div>
                     <div className={styles['project-details']}>
-                        <h4 className={styles['project-title']}>TMO Portfolio</h4>
+                        <h4 className={styles['project-title']}>TMO Web Portfolio</h4>
                         <div className={styles['project-desc']}>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                                 Quidem veritatis a vitae excepturi nihil optio, aliquid 
@@ -28,14 +28,20 @@ function Projects() {
                                 <li>React</li>
                             </ul>
                         </div>
+                        <div className={styles['project-links']}>
+                            <ul>
+                                <li>GitHub</li>
+                                <li>Live Demo</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className={styles['project-card']}>
                     <div className={styles['project-img-container']}>
-                        <img className={styles['project-img']} src={project1IMG} alt="TMO Portfolio"/>
+                        <img className={styles['project-img']} src={project1IMG} alt="Project 2"/>
                     </div>
                     <div className={styles['project-details']}>
-                        <h4 className={styles['project-title']}>TMO Portfolio</h4>
+                        <h4 className={styles['project-title']}>Project 2</h4>
                         <div className={styles['project-desc']}>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                                 Quidem veritatis a vitae excepturi nihil optio, aliquid 
@@ -49,14 +55,20 @@ function Projects() {
                                 <li>React</li>
                             </ul>
                         </div>
+                        <div className={styles['project-links']}>
+                            <ul>
+                                <li>GitHub</li>
+                                <li>Live Demo</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div className={styles['project-card']}>
                     <div className={styles['project-img-container']}>
-                        <img className={styles['project-img']} src={project1IMG} alt="TMO Portfolio"/>
+                        <img className={styles['project-img']} src={project1IMG} alt="Project 3"/>
                     </div>
                     <div className={styles['project-details']}>
-                        <h4 className={styles['project-title']}>TMO Portfolio</h4>
+                        <h4 className={styles['project-title']}>Project 3</h4>
                         <div className={styles['project-desc']}>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                                 Quidem veritatis a vitae excepturi nihil optio, aliquid 
@@ -68,6 +80,12 @@ function Projects() {
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>React</li>
+                            </ul>
+                        </div>
+                        <div className={styles['project-links']}>
+                            <ul>
+                                <li>GitHub</li>
+                                <li>Live Demo</li>
                             </ul>
                         </div>
                     </div>

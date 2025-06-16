@@ -9,7 +9,8 @@ function Contact() {
             </div>
             <div className={styles.contact}>
                 <h2 class="section-title scroll-reveal">Let's Connect</h2>
-                <p class="scroll-reveal">I'm always interested in discussing new opportunities, innovative projects, and collaborations in AI and cybersecurity.</p>
+                <p class="scroll-reveal">I'm always interested in discussing new opportunities, 
+                    innovative projects, and collaborations in AI and cybersecurity.</p>
             </div>
             <div class="contact-content">
             <div class="contact-info scroll-reveal">

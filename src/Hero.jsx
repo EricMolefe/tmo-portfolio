@@ -15,7 +15,7 @@ function Hero() {
                         <p className={styles['biography-desc']}> 
                             Bridging the gap between technology and creativity. I craft 
                             digital experiences with code and bring imagination to life 
-                            through art. Welcome to my creative universe.</p>
+                            through art.<br/>Welcome to my creative universe.</p>
                     </div>
                     <ul className={styles.socials}>
                         <li><a href="https://github.com/EricMolefe" target="_blank">GitHub</a></li>
