@@ -1,5 +1,5 @@
 .home-section {
-    background: linear-gradient(134deg, #0a0a0a 60%, #16213e 100%);
+    background: linear-gradient(320deg, #0a0a0a 20%, #16213e 100%);
 }
 
 h2 {
@@ -48,6 +48,7 @@ h4 {
 }
 
 .biography {
+    height: 90%;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -60,21 +61,39 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    position: relative;
 }
-
-.cv-button {
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 0.8rem;
+}
+.cv-button,
+.contact-button {
     max-width: fit-content;
-    background-color: hsla(152, 100%, 44%, 0.8);
-    /* background-color: whitesmoke; */
-    padding: 0.5rem 0.8rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 0.6rem;
     color: #0A0A0B;
     font-weight: 400;
     margin-bottom: 0.8rem;
+    transition: all 0.3s ease-in;
 }
-
-
-.cv-button:hover {
+.cv-button {
     background-color: hsla(152, 100%, 44%, 0.8);
+    border: 0.125rem solid hsla(152, 100%, 44%, 0.20);
 }
+.contact-button {
+    border: 0.125rem solid hsla(25, 76%, 80%,0.50);
+    color: hsla(25, 76%, 80%,1);
+}
+.contact-button:hover {
+    cursor: pointer;
+    border: 0.125rem solid hsl(34, 78%, 70%);
+    color: hsl(34, 78%, 70%);
+}
+.cv-button:hover {
+    cursor: pointer;
+}
+
+

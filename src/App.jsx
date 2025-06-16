@@ -2,7 +2,7 @@ import "./App.css"
 import Header from "./Header"
 import Hero from "./Hero"
 import About from "./About"
-import Skills from "./Skills"
+// import Skills from "./Skills"
 import Contact from "./Contact"
 import Projects from "./Projects"
 import Footer from "./Footer"
@@ -13,7 +13,7 @@ function App() {
     <Header/>
     <Hero/>
     <About/>
-    <Skills/>
+    {/* <Skills/> */}
     <Projects/>
     <Contact/>
     <Footer/>
