@@ -7,7 +7,7 @@
     align-items: start;
     justify-content: start;
     width: 80%;
-    /* min-height: 70%; */
+    min-height: 70%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 1.2rem;
@@ -17,7 +17,7 @@
 .contact-details {
     flex: 1;
     font-size: 1rem;
-    background: linear-gradient(320deg, #0a0a0a 10%, #1a1a2e 90%, #16213e 100%);
+    background: linear-gradient(320deg, #0a0a0a 0%, #16213e 100%);
     height: 100%;
     padding: 2rem;
     border-radius: 0.6rem;
@@ -28,13 +28,14 @@
     font-size: 0.9rem;
 }
 .contact-form {
+    min-height: 100%;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     gap: 2rem;
-    padding: 3rem;
+    padding: 2rem;
     border: 0.125rem solid hsla(27, 63%, 92%, 0.1);
     border-radius: 0.6rem;
 }

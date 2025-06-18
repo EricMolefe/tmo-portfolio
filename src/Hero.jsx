@@ -24,10 +24,10 @@ function Hero() {
                         <li><a href="https://www.youtube.com/@TMOFlow" target="_blank">Youtube</a></li>
                     </ul>
                     <div className={styles['hero-buttons']}>
-                        <a href="#Projects"><div className={styles['cv-button']}>
+                        <a href="./assets/resume-example.pdf" target="_blank" rel="noopener noreferrer" ><div className={styles['cv-button']}>
+                            Download CV</div></a>
+                        <a href="#Projects"><div className={styles['contact-button']}>
                             See Projects</div></a>
-                        <div className={styles['contact-button']}>
-                            Contact</div>
                     </div>
                 </div>
             </div>
