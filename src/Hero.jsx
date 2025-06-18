@@ -1,12 +1,12 @@
 import styles from './styles/Hero.module.css'
-import profilePic from './assets/profilepic.jpeg'
+import profilePic from './assets/pic1-cropped.jpg'
 
 function Hero() {
     return (
         <section className={styles['hero-section']}>
             <img className={styles['profile-picture']} src={profilePic} alt="Profile Picture"/>
             <div className={styles['profile']}>
-                <h4 className={styles['profile-title']}>Tumelo Molefe</h4>
+                <h1 className={styles['profile-title']}>Tumelo Molefe</h1>
                 <h4 className={styles['profile-subtitle']}>Software Engineer</h4>
                 <p className={styles['profile-message']}>Bridging the gap between technology and creativity. I craft 
                     digital experiences with code and bring imagination to life 

@@ -3,7 +3,7 @@ import styles from './styles/Header.module.css'
 function Header() {
     return (
         <nav>
-            <h4 className={styles.logo}>tmo</h4>
+            <h1 className={styles.logo}>tmoCraft.</h1>
             
             <ul className={styles['nav-links']}>
                 <li className={styles['nav-item']}><a href="#Home">Home</a></li>
