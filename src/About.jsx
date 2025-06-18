@@ -4,7 +4,7 @@ import sectionpic from './assets/pic2.jpeg'
 function About() {
     return(
         <section id="About" className={styles['about-section']}>
-            <div className="section-header autoshow">
+            <div className="section-header">
                 <h2 className="section-title">About Me</h2>
                 <div className="underline"/>
             </div>
@@ -19,8 +19,8 @@ function About() {
                                 and artistic sides of creation. When I'm not coding, 
                                 you'll find me experimenting with new art mediums.
                                 I believe that the intersection of technology and art creates 
-                                the most compelling and human-centered solutions. <br/><br/> 
-                                My approach combines clean, efficient code with thoughtful 
+                                the most compelling and human-centered solutions.</p>
+                            <p> My approach combines clean, efficient code with thoughtful 
                                 design and a touch of creative flair. Every project is an 
                                 opportunity to <i><b>learn, grow, and push boundaries.</b></i> </p>
                         </div>

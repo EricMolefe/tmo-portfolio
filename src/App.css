@@ -7,7 +7,7 @@ section {
     align-items: center;
     justify-content: center;
     /* border-bottom: 2px solid hsla(25, 76%, 31%,0.2); */
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 .section-header{
