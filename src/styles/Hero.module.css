@@ -97,8 +97,8 @@
 .profile-message {
     font-size: 0.9rem;
     margin-bottom: 1.4rem;
-    /* text-align: left; */
-    text-align: justify;
+    text-align: left;
+    /* text-align: justify; */
 
 
     @media (width>=580px) {
