@@ -25,8 +25,12 @@
     }
 }
 
+.img-wrapper {
+    margin-bottom: 1rem;
+}
+
 .profile-img {
-    width: 70vw;
+    width: 75vw;
     max-width: 350px;
     border-radius: 0.6rem;
     filter: saturate(0);
@@ -42,22 +46,21 @@
 }
 
 .profile {
-    width: 85%;
-
+    width: 75vw;
     @media (width>=775px) {
         width: 60%;
     }
 }
 
 .profile-title {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
 }
 
 .profile-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--chocolate);
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.3rem;
 }
 
 .profile-message {
