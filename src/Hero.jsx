@@ -5,9 +5,7 @@ function Hero() {
     return (
         <section className={styles['hero-section']}>
             <div className={styles['hero-container']}>
-                <div className={styles['img-wrapper']}>
-                    <img className={styles['profile-img']} src={profilePic} alt="Profile Picture"/>
-                </div>
+                <img className={styles['profile-img']} src={profilePic} alt="Profile Picture"/>
                 <div className={styles['profile']}>
                     <h1 className={styles['profile-title']}>TUMELO MOLEFE</h1>
                     <h4 className={styles['profile-subtitle']}>Software Engineer</h4>

@@ -19,7 +19,7 @@ nav {
     justify-content: space-between;
 
     @media (width>=775px) {
-        min-width: 80%;
+        min-width: 85%;
     }
 } 
 
