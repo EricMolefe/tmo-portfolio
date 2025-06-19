@@ -10,7 +10,7 @@ function About() {
                 <div className={styles["underline"]}></div>
             </div>
 
-            <div className={styles["about"]}>
+            <div className={styles["about-container"]}>
                 <div className={styles["about-details"]}>
 
                     <div className={styles["section-subheader"]}>
@@ -39,8 +39,9 @@ function About() {
                         open to new perspectives.
                     </p>
                 </div>
-
-                <img src={aboutPic} alt="About picture"/>
+                <div>
+                    <img className={styles['about-img']} src={aboutPic} alt="About picture"/>
+                </div>
             </div>
         </section>        
     )

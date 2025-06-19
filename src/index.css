@@ -1,3 +1,14 @@
+:root {
+  --bg-main: #0A0A0B;
+  --text-main: #FFFFFF;
+  --accent-light: #F4F4F4;
+  --accent-mid: #888888;
+  --accent-hover: #E0E6F7;
+  --bg-gradient: linear-gradient(320deg, #0a0a0a 20%, #16213e 100%);
+  --card-border: 0.125rem solid hsla(27, 63%, 92%, 0.1); 
+  --img-border: 1px solid #16213e;
+}
+
 html {
     margin: 0;
     box-sizing: border-box;
@@ -6,7 +17,7 @@ html {
 
 body {
     font-family: Poppins, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.5rem;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #0A0A0B;
+    background-color: var(--bg-main);
 }
