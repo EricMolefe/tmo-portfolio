@@ -11,25 +11,20 @@ function Skills() {
                 
                 <div className={styles['skills-card']}>
                     <div className={styles['section-subheader']}>
-                        <h3 className={styles['section-subtitle']}>Programming & Development</h3>
+                        <h3 className={styles['section-subtitle']}>Artificial Intelligence & Data Science</h3>
                         <div className={styles.underline}></div>
                     </div>
                     <div className={styles['skills-list']}>
                         <p className={styles['skills-item']}>
-                            <b>Languages: </b>
-                                Java, Python, C++, C#, JavaScript
+                            <b>Machine Learning: </b>
+                                Python-based ML fundamentals using Numpy, Pandas, and scikit-learn
                             </p>
                         <p className={styles['skills-item']}>
-                            <b>Framworks/Libraries: </b>
-                                React, Node.js
+                            <b>Areas of Interest: </b>
+                                Neural Networks, Data Visualization, Prompt Engineering 
                             </p>
                         <p className={styles['skills-item']}>
-                            <b>Tools & Technologies: </b>
-                                Git, Github, Vite
-                            </p>
-                        <p className={styles['skills-item']}>
-                            <b>OS: </b>
-                                Windows, Linux (Arch, Kali, Ubuntu)
+                            <b>Development Philosophy: </b>
                             </p>
                     </div>
                 </div>

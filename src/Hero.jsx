@@ -4,7 +4,9 @@ import profilePic from './assets/pic1-cropped.jpg'
 function Hero() {
     return (
         <section className={styles['hero-section']}>
-            <img className={styles['profile-img']} src={profilePic} alt="Profile Picture"/>
+            <div className={styles['img-wrapper']}>
+                <img className={styles['profile-img']} src={profilePic} alt="Profile Picture"/>
+            </div>
             <div className={styles['profile']}>
                 <h1 className={styles['profile-title']}>Tumelo Molefe</h1>
                 <h4 className={styles['profile-subtitle']}>Software Engineer</h4>

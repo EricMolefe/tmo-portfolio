@@ -3,7 +3,8 @@ import Header from './Header'
 import Hero from './Hero'
 import About from './About'
 import Skills from './Skills'
-import Projects from './Skills'
+import Projects from './Projects'
+import Contact from './Contact'
 import Footer from './Footer'
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <Header/>
       <Hero/>
       <About/>
-      <Skills/>
-      {/* <Projects/> */}
+      {/* <Skills/> */}
+      <Projects/>
+      <Contact/>
       <Footer/>
     </>
   )
