@@ -1,10 +1,19 @@
 :root {
-  --bg-main: #0A0A0B;
-  --text-main: #FFFFFF;
-  --accent-light: #F4F4F4;
-  --accent-mid: #888888;
-  --accent-hover: #E0E6F7;
+  --bg-main: hsl(240, 5%, 4%);
+  --bg-secondary: hsla(0, 0%, 9%);
   --bg-gradient: linear-gradient(320deg, #0a0a0a 20%, #16213e 100%);
+
+  --text-main: hsl(0, 0%, 96%);
+  --text-secondary: hsla(0, 0%, 66%,1);
+  --text-third: hsl(0, 0%, 20%);
+  --text-subheading: hsl(25, 76%, 80%);;
+  
+  --color2: hsl(25, 76%, 80%);
+  --chocolate: hsla(34, 78%, 70%);
+  --sandy-brown: hsl(28, 87%, 67%);
+
+  --emerald-green: #00C896;
+
   --card-border: 0.125rem solid hsla(27, 63%, 92%, 0.1); 
   --img-border: 1px solid #16213e;
 }
@@ -20,8 +29,16 @@ html {
 }
 
 body {
-    font-family: Poppins, Helvetica, Arial, sans-serif;
-    line-height: 1.5rem;
-    color: rgba(255, 255, 255, 0.87);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6rem;
+    color: var(--text-main);
     background-color: var(--bg-main);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

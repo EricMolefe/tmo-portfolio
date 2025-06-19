@@ -3,7 +3,7 @@ import projectImg1 from './assets/project1.png'
 
 function Projects() {
     return(
-        <section className={styles["project-section"]}>
+        <section id="Projects" className={styles["project-section"]}>
             <div className={styles["section-header"]}>
                 <h1 className={styles["section-title"]}>Projects</h1>
                 <div className={styles["underline"]}></div>
