@@ -4,6 +4,8 @@ so if you do want to check it out, please visit the website on your desktop.
 
 **Website Link:** https://tmocraft.vercel.app
 
+This website is currently in development and is not finished yet
+
 NOTE: This next section is for me. Please ignore it.
 
 # To Do
