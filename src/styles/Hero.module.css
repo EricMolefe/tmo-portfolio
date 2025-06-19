@@ -26,14 +26,14 @@
 }
 
 .profile-img {
-    width: 35vw;
+    width: 70vw;
+    max-width: 350px;
     border-radius: 0.6rem;
     filter: saturate(0);
     transition: filter .3s ease-in-out;
     
     @media (width>=900px) {
         width: 38vw;
-        max-width: 340px;
     }
 }
 
