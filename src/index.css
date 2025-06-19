@@ -15,6 +15,7 @@
   --emerald-green: #00C896;
 
   --card-border: 0.125rem solid hsla(27, 63%, 92%, 0.1); 
+  --card-border-hover: 0.125rem solid hsla(34, 78%, 70%); 
   --img-border: 1px solid #16213e;
 }
 
@@ -41,4 +42,8 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.section-title {
+  font-size: 2rem;
 }
