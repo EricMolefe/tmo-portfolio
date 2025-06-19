@@ -1,18 +1,23 @@
 nav {
     width: 100vw;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.4rem 1.2rem;
+    padding: 1rem 1.2rem;
     background-color: var(--bg-main);
+    position: relative;
     position: fixed;
     z-index: 100;
-
-    @media (width>=775px) {
-        width: 85%;
-        margin: auto;
-    }
 }
+
+.nav-container {
+    display: flex;
+    min-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+} 
 
 .mobile-menu {
     height: 100vh;
@@ -56,8 +61,6 @@ nav {
     width: 45px;
     margin-left: auto;
     position: relative;
-    padding: 0.3rem;
-    background-color: var(--bg-secondary);
     z-index: 1000;
 
     @media (width>=775px) {
