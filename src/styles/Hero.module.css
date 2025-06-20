@@ -98,11 +98,11 @@
     }
     
     @media (width>=900px) {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     @media (width>=1200px) {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -139,6 +139,10 @@
 
     @media (width>=340px) {
         font-size: 0.9rem;
+    }
+
+    @media (width>=1200px) {
+        font-size: 1rem;
     }
 }
 
