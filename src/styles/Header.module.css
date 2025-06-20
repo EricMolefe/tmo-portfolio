@@ -4,7 +4,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.4rem 1.2rem;
+    padding: 1.1rem 1.2rem;
     background-color: var(--bg-main);
     position: relative;
     position: fixed;
@@ -97,24 +97,29 @@ nav {
 
 .desktop-menu {
     display: none;
-
     @media (width>=775px) {
         display: flex;
     }
 }
 
 .desktop-menu ul {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+
     @media (width>=775px) {
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
+        gap: 1.1rem;
+    }
+
+    @media (width>=900px) {
+        gap: 1.4rem;
     }
 }   
 
 .nav-links {
     color: var(--text-main);
+    font-size: 0.9rem;
 }
 
 a,
@@ -147,10 +152,10 @@ li:hover {
 
 .logo {
     color: var(--sandy-brown);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 600;
     z-index: 1000;
     @media (width>=775px) {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }
