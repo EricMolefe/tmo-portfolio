@@ -9,6 +9,19 @@
     width: 90vw;
 }
 
+.about-details {
+
+    @media (width>=900px) {
+        flex: 2
+    }
+}
+
+.img-wrapper {
+    @media (width>=900px) {
+        flex: 1
+    }
+}
+
 .about-card {
     padding: 0.8rem 1rem;
     border: var(--card-border);
