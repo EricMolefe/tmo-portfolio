@@ -71,13 +71,9 @@
 }
 
 .profile-title {
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 800;
-    margin-bottom: 1.8rem;
-
-    @media (width>=340px) {
-        font-size: 2rem;
-    }
+    margin-bottom: 1.5rem;
 
     @media (width>=900px) {
         font-size: 2.2rem;

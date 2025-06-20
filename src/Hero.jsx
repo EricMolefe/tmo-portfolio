@@ -8,7 +8,7 @@ function Hero() {
                 <img className={styles['profile-img']} src={profilePic} alt="Profile Picture"/>
                 <div className={styles['profile']}>
                     <h1 className={styles['profile-title']}>Tumelo Molefe</h1>
-                    <h4 className="section-subtitle">SOFTWARE DEVELOPER</h4>
+                    <h4 className="section-subtitle">Software Engineer</h4>
                     <div className={styles['profile-message']}>
                         <p>Bridging the gap between technology and creativity. I craft 
                             digital experiences with code and bring imagination to life 
