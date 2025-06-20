@@ -11,7 +11,9 @@ function Hero() {
                     <h4 className={styles['profile-subtitle']}>Software Engineer</h4>
                     <p className={styles['profile-message']}>Bridging the gap between technology and creativity. I craft 
                         digital experiences with code and bring imagination to life 
-                        through art.<br/>Welcome to my creative universe.</p>
+                        through art.</p>
+                    <p className={styles['profile-message']}>
+                        <em>Welcome to my creative universe.</em></p>
                     
                     <ul className={styles['profile-socials']}>
                         <li className={styles['social-link']}><a 
