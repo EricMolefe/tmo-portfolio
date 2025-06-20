@@ -11,11 +11,7 @@ function About() {
             </div>
 
             <div className={styles["about-container"]}>
-<<<<<<< HEAD
-                <div className={styles["about-details"]}>
-=======
                 <div className={`${styles["about-details"]} ${styles.top}`}>
->>>>>>> style/about-section
                     <div className={styles["about-card"]}>
                         <div className="section-subheader">
                             <h4 className="section-subtitle">My Story</h4>
