@@ -1,3 +1,37 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    width: 90vw;
+}
+
+.about-card {
+    padding: 0.8rem 1rem;
+    border: var(--card-border);
+    border-radius: 0.6rem;
+}
+
+.about-card .skills {
+    background: var(--bg-gradient);
+}
+
+.about-container p {
+    font-size: 0.9rem;
+}
+
+.about-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
 .about-img {
     width: 32vw;
     /* display: none; */

@@ -44,6 +44,40 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding-top: 4rem;
+}
+
+.section-header,
+.section-subheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+}
+
+.section-header {
+  margin-bottom: 2rem;
+}
+
 .section-title {
   font-size: 2rem;
+}
+
+.section-subheader {
+  align-items: start;
+  justify-content: center;
+  color: var(--chocolate);
+}
+
+.section-subtitle {
+  margin-bottom: 0.5rem;
+} 
+
+.underline {
+  height: 0.3rem;
+  width: 20%;
+  background-color: var(--text-main);
+  border-radius: 0.6rem;
 }
