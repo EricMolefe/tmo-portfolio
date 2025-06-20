@@ -71,25 +71,27 @@
 }
 
 .profile-title {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 1.8rem;
 
     @media (width>=340px) {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     @media (width>=900px) {
         font-size: 2.2rem;
+
     }
 
     @media (width>=1200px) {
         font-size: 3rem;
+        margin-bottom: 2.5rem;
     }
 }
 
 .profile-subtitle {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--chocolate);
     margin-bottom: 0.3rem;
 
@@ -103,6 +105,7 @@
 
     @media (width>=1200px) {
         font-size: 1.2rem;
+        margin-bottom: 0.4rem;
     }
 }
 
@@ -110,7 +113,7 @@
     font-size: 0.9rem;
     text-align: justify;
     min-height: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
 
     @media (width>=900px) {
         text-align: left;

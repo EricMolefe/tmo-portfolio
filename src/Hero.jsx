@@ -9,11 +9,13 @@ function Hero() {
                 <div className={styles['profile']}>
                     <h1 className={styles['profile-title']}>Tumelo Molefe</h1>
                     <h4 className="section-subtitle">SOFTWARE DEVELOPER</h4>
-                    <p className={styles['profile-message']}>Bridging the gap between technology and creativity. I craft 
-                        digital experiences with code and bring imagination to life 
-                        through art.</p>
-                    <p className={styles['profile-message']}>
-                        <em>Welcome to my creative universe.</em></p>
+                    <div className={styles['profile-message']}>
+                        <p>Bridging the gap between technology and creativity. I craft 
+                            digital experiences with code and bring imagination to life 
+                            through art.</p>
+                        <p>
+                            <em>Welcome to my creative universe.</em></p>
+                    </div>
                     
                     <ul className={styles['profile-socials']}>
                         <li className={styles['social-link']}><a 
