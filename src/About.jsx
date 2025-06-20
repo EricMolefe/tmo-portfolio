@@ -11,11 +11,11 @@ function About() {
             </div>
 
             <div className={styles["about-container"]}>
-                <div className={styles["about-details"]}>
-
+                <div className={`${styles["about-details"]} ${styles.top}`}>
                     <div className={styles["about-card"]}>
                         <div className="section-subheader">
                             <h4 className="section-subtitle">My Story</h4>
+                            <div className="underline"></div>
                         </div>
                         <div className={styles['about-message']}>
                             <p> My journey into tech and design started with a simple curiosity about how things work.
@@ -36,11 +36,15 @@ function About() {
                             </p>
                         </div>
                     </div>
-
-                    <div className={styles["about-card__skills"]}>
-                        <div className={styles["section-subheader"]}>
-                            <h4 className={styles["section-subtitle"]}>Programming Languages</h4>
-                            <div className={styles["underline"]}></div>
+                    <div className={styles['img-wrapper']}>
+                        <img className={styles['about-img']} src={aboutPic} alt="About picture"/>
+                    </div>
+                </div>
+                <div className={`${styles["about-details"]} ${styles.bottom}`}>
+                    <div className={`${styles["about-card"]} ${styles.skills}`}>
+                        <div className="section-subheader">
+                            <h4 className="section-subtitle">Programming Languages</h4>
+                            <div className="underline"></div>
                         </div>
                         <ul className={styles['skills-list']}>
                             <li className={styles['skills-item']}>
@@ -55,9 +59,6 @@ function About() {
                                 C#</li>
                         </ul>
                     </div>
-                </div>
-                <div className={styles['img-wrapper']}>
-                    <img className={styles['about-img']} src={aboutPic} alt="About picture"/>
                 </div>
             </div>
         </section>        

@@ -1,6 +1,7 @@
 :root {
   --bg-main: hsl(240, 5%, 4%);
   --bg-secondary: hsla(0, 0%, 9%);
+  --bg-third: hsla(0, 0%, 9%,0.15);
   --bg-gradient: linear-gradient(320deg, #0a0a0a 20%, #16213e 100%);
 
   --text-main: hsl(0, 0%, 96%);
@@ -16,6 +17,7 @@
 
   --card-border: 0.125rem solid hsla(27, 63%, 92%, 0.1); 
   --card-border-hover: 0.125rem solid hsla(34, 78%, 70%); 
+  --tag-border: 0.055rem solid hsla(27,63%,92%,.1);
   --img-border: 1px solid #16213e;
 }
 
@@ -54,7 +56,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.9rem;
 }
 
 .section-header {
@@ -63,21 +64,29 @@ section {
 
 .section-title {
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
+  /* margin-bottom: 0.5rem; */
 
 .section-subheader {
   align-items: start;
-  justify-content: center;
+  justify-content: flex-start;
   color: var(--chocolate);
+  /* background-color: aliceblue; */
+  margin-bottom: 1.4rem;
 }
 
 .section-subtitle {
-  margin-bottom: 0.5rem;
-} 
+  margin-bottom: 0.6rem;
+}
 
 .underline {
-  height: 0.3rem;
-  width: 20%;
+  height: 0.25rem;
+  width: 25%;
   background-color: var(--text-main);
   border-radius: 0.6rem;
 }
+
+.section-subheader .underline {
+  max-width: 32px;
+} 
