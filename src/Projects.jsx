@@ -13,12 +13,14 @@ function Projects() {
                 <div className={styles['project-card']}>
                     <img className={styles['project-img']} src={projectImg1} alt="Project 1 image"/>
                     <div className={styles["project-info"]}>
-                        <h4 className="section-subtitle">Project 1</h4>
+                        <h4 className="section-subtitle">TMO Portfolio</h4>
                         <div className={styles["project-desc"]}>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Nihil minus dignissimos eum in rerum sed voluptatum possimus 
-                                amet molestias recusandae, illum obcaecati officia sequi error.</p>   
+                            <p>A personal portfolio website built with React and CSS Modules 
+                                to showcase my skills, projects, and creative work. The site 
+                                emphasizes a clean, minimal design with a strong focus on user 
+                                experience, responsiveness, and maintainable component structure. 
+                                It includes sections like About, Skills, Projects, and Contact, 
+                                designed to reflect both technical ability and artistic personality.</p>   
                         </div>
                         <ul className={styles["project-techstack"]}>
                             <li className={styles["project-tech"]}>
@@ -42,7 +44,7 @@ function Projects() {
                         </li>
                     </ul>
                 </div>
-                <div className={styles['project-card']}>
+                {/* <div className={styles['project-card']}>
                     <img className={styles['project-img']} src={projectImg1} alt="Project 2 image"/>
                     <div className={styles["project-info"]}>
                         <h4 className="section-subtitle">Project 2</h4>
@@ -105,7 +107,7 @@ function Projects() {
                             Live Demo</a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </section>
     )

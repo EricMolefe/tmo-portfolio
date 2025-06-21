@@ -13,22 +13,31 @@ function Contact() {
                         <p>I am always interested in discussing new opportunities, innovative projects, 
                             and collaborations in Software Development and cybersecurity.</p>
                     </div>
-                    <div className={styles['contact-info']}>
-                        <p>Email: molefejrtumelo@gmail.com</p>
+                    {/* <div className={styles['contact-info']}>
+                        <p><a href="mailto:molefejrtumelo@gmail.com">Email: molefejrtumelo@gmail.com</a></p>
                         <p>Phone: +266 53939688</p>
-                    </div>
+                    </div> */}
                 </div>
-                <form action="" className={styles['contact-form']}>
+                <form action="https://formspree.io/f/xyzjdoyq" method="POST" className={styles['contact-form']}>
                     <div className={styles['form-field']}>
                         <label htmlFor="name" className="section-subtitle">
-                            Your Name</label>
-                        <input type="text" for="name" placeholder="Dwight Schrute" required/>
+                            Name</label>
+                        <input type="text" name="firstname" 
+                            placeholder="Dwight" 
+                            required autoComplete='off'/>
+                    </div>
+                    <div className={styles['form-field']}>
+                        <label htmlFor="name" className="section-subtitle">
+                            Surname</label>
+                        <input type="text" name="surname" 
+                            placeholder="Schrute" required autoComplete='off'/>
                     </div>
                     <div className={styles['form-field']}>
                         <label htmlFor="email" className="section-subtitle">
                             Email Address</label>
-                        <input type="text" for="email" 
-                            placeholder="dwight.schrute@example.com" required/>
+                        <input type="text" name="email" 
+                            placeholder="dwight.schrute@example.com" 
+                                autoComplete='off' required/>
                     </div>
                     <div className={styles['form-field']}>
                         <label htmlFor="message" className="section-subtitle">
@@ -36,8 +45,7 @@ function Contact() {
                         <div className={styles['textarea']}>
                             <textarea name="message" id="message" 
                                 placeholder="Type your message" 
-                                cols="32" rows="10"
-                                required>
+                                autoComplete='off' required>
                             </textarea>
                         </div>
                     </div>

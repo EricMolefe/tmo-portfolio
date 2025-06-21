@@ -77,7 +77,14 @@ textarea {
 .textarea {
     width: 100%;
     border: var(--card-border);
-    min-height: 160px;
+    min-height: 120px;
+    border-radius: 0.6rem;
+}
+
+textarea {
+    height: 99%;
+    width: 100%;
+    border: none;
 }
 
 button {

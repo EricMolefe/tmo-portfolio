@@ -35,7 +35,8 @@ function Hero() {
                     </ul>
                     <div className={styles['profile-buttons']}>
                         <div className={styles['cv-button']}>Download CV</div>
-                        <div className={styles['projects-button']}>See projects</div>
+                        <div className={styles['projects-button']}><a href="#Projects">
+                            See projects</a></div>
                     </div>
                 </div>
             </div>

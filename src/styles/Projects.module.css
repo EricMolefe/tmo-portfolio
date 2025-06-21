@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 340px;
+    max-width: 360px;
     border: var(--card-border);
     border-radius: 0.6rem;
     background: var(--bg-third);
@@ -53,7 +53,7 @@
 
 .project-desc {
     color: var(--text-secondary);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     margin-bottom: 0.9rem;
 }
 
@@ -75,4 +75,9 @@
 .project-links {
     display: flex;
     gap: 1.3rem;
+    color: var(--text-subheading);
+}
+
+.project-link {
+    font-size: 0.9rem;
 }

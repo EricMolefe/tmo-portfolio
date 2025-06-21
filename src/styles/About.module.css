@@ -79,6 +79,11 @@
     border: var(--tag-border);
     padding: 0.4rem 1rem;
     border-radius: 0.6rem;
+    transition: .3s ease-in-out;
+}
+
+.skills-item:hover {
+    background-color: var(--tag-hover);
 }
 
 .about-container p,
