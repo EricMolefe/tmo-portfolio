@@ -1,37 +1,45 @@
-import styles from "./styles/Hero.module.css"
-import profilepic from './assets/ProfilePic.jpeg'
+import styles from './styles/Hero.module.css'
+import profilePic from './assets/pic1-cropped.jpg'
 
 function Hero() {
-    return(
-        <section id="Home" className={styles['home-section']}>
-            <div className={styles.hero}>
-                <div className={styles['pic-container']}>
-                    <img className={styles['profile-pic']} src={profilepic} alt="Profile Picture"/>
-                </div>
-                <div className={styles.biography}>
-                    <div className={styles['biography-details']}>
-                        <h2 className={styles['section-title']}>TUMELO MOLEFE</h2>
-                        <h4 className={styles['biography-titile']}>Software Developer</h4>
-                        <p className={styles['biography-desc']}> 
-                            Bridging the gap between technology and creativity. I craft 
+    return (
+        <section id="Home" className={styles['hero-section']}>
+            <div className={styles['hero-container']}>
+                <img className={styles['profile-img']} src={profilePic} alt="Profile Picture"/>
+                <div className={styles['profile']}>
+                    <h1 className={styles['profile-title']}>Tumelo Molefe</h1>
+                    <h4 className={styles['profile-subtitle']}>Software Engineer</h4>
+                    <div className={styles['profile-message']}>
+                        <p>Bridging the gap between technology and creativity. I craft 
                             digital experiences with code and bring imagination to life 
-                            through art.<br/>Welcome to my creative universe.</p>
+                            through art.</p>
+                        <p>
+                            <em>Welcome to my creative universe.</em></p>
                     </div>
-                    <ul className={styles.socials}>
-                        <li><a href="https://github.com/EricMolefe" target="_blank">GitHub</a></li>
-                        <li><a href="https://linkedin.com/in/tumelomolefe" target="_blank">Linkedin</a></li>
-                        <li><a href="https://https://tryhackme.com/p/KratosV" target="_blank">TryHackMe</a></li>
-                        <li><a href="https://www.youtube.com/@TMOFlow" target="_blank">Youtube</a></li>
+                    
+                    <ul className={styles['profile-socials']}>
+                        <li className={styles['social-link']}><a 
+                            href="https://github.com/EricMolefe"
+                            target="_blank">
+                            Github</a></li>
+                        <li className={styles['social-link']}><a 
+                            href="https://linkedin.com/in/tumelomolefe"
+                            target="_blank">
+                            Linkedin</a></li>
+                        <li className={styles['social-link']}><a href="https://www.youtube.com/@tmoCraft"
+                            target="_blank">
+                            Youtube</a></li>
+                        <li className={styles['social-link']}> <a href="https://github.com/EricMolefe"
+                            target="_blank">
+                            TryHackMe</a></li>
                     </ul>
-                    <div className={styles['hero-buttons']}>
-                        <a href="./assets/resume-example.pdf" target="_blank" rel="noopener noreferrer" ><div className={styles['cv-button']}>
-                            Download CV</div></a>
-                        <a href="#Projects"><div className={styles['contact-button']}>
-                            See Projects</div></a>
+                    <div className={styles['profile-buttons']}>
+                        <div className={styles['cv-button']}>Download CV</div>
+                        <div className={styles['projects-button']}><a href="#Projects">
+                            See projects</a></div>
                     </div>
                 </div>
             </div>
-            <a href="#Home"><div className="top"><b>up</b></div></a>
         </section>
     )
 } export default Hero

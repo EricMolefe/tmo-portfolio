@@ -1,10 +1,29 @@
+<<<<<<< HEAD
 .copywrite {
     width: 85%;
     height: 180px;
     margin: auto;
+=======
+.footer-section {
+    height: 10vh;
+    min-width: 100vw;
+>>>>>>> rebuild
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     /* border-top: 1px solid gainsboro; */
+=======
+    background: var(--bg-gradient);
+}
+
+.footer-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+>>>>>>> rebuild
 }

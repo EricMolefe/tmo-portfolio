@@ -1,121 +1,112 @@
-import styles from "./styles/Projects.module.css"
-import project1IMG from "./assets/project1.png"
+import styles from './styles/Projects.module.css'
+import projectImg1 from './assets/project1.png'
 
 function Projects() {
     return(
-        <section id="Projects" className={styles['projects-section']}>
+        <section id="Projects" className={styles["projects-section"]}>
             <div className="section-header">
-                <h2 className="section-title">Projects</h2>
-                <div className="underline"/>
+                <h1 className="section-title">Projects</h1>
+                <div className="underline"></div>
             </div>
-            <div className={styles.projects}>
-            <div className={styles['project-card']}>
-                    <div className={styles['project-img-container']}>
-                        <img className={styles['project-img']} src={project1IMG} alt="Project 1"/>
-                    </div>
-                    <div className={styles['project-details']}>
-                        <h4 className={styles['project-title']}>TMO Web Portfolio</h4>
-                        <div className={styles['project-desc']}>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Quidem veritatis a vitae excepturi nihil optio, aliquid 
-                                similique culpa debitis tempora.</p>
-                        </div>
-                        <div className={styles['project-techStack']}>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>React</li>
-                            </ul>
-                        </div>
-                        <div className={styles['project-links']}>
-                            <ul>
-                                <li>GitHub</li>
-                                <li>Live Demo</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
+            <div className={styles['projects-container']}>
                 <div className={styles['project-card']}>
-                    <div className={styles['project-img-container']}>
-                        <img className={styles['project-img']} src={project1IMG} alt="Project 2"/>
+                    <img className={styles['project-img']} src={projectImg1} alt="Project 1 image"/>
+                    <div className={styles["project-info"]}>
+                        <h4 className="section-subtitle">TMO Portfolio</h4>
+                        <div className={styles["project-desc"]}>
+                            <p>A personal portfolio website built with React and CSS Modules 
+                                to showcase my skills, projects, and creative work. The site 
+                                emphasizes a clean, minimal design with a strong focus on user 
+                                experience, responsiveness, and maintainable component structure. 
+                                It includes sections like About, Skills, Projects, and Contact, 
+                                designed to reflect both technical ability and artistic personality.</p>   
+                        </div>
+                        <ul className={styles["project-techstack"]}>
+                            <li className={styles["project-tech"]}>
+                                HTML</li>
+                            <li className={styles["project-tech"]}>
+                                CSS</li>
+                            <li className={styles["project-tech"]}>
+                                JavaScript</li>
+                            <li className={styles["project-tech"]}>
+                                React</li>
+                        </ul>
                     </div>
-                    <div className={styles['project-details']}>
-                        <h4 className={styles['project-title']}>Project 2</h4>
-                        <div className={styles['project-desc']}>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Quidem veritatis a vitae excepturi nihil optio, aliquid 
-                                similique culpa debitis tempora.</p>
-                        </div>
-                        <div className={styles['project-techStack']}>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>React</li>
-                            </ul>
-                        </div>
-                        <div className={styles['project-links']}>
-                            <ul>
-                                <li>GitHub</li>
-                                <li>Live Demo</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles['project-card']}>
-                    <div className={styles['project-img-container']}>
-                        <img className={styles['project-img']} src={project1IMG} alt="Project 3"/>
-                    </div>
-                    <div className={styles['project-details']}>
-                        <h4 className={styles['project-title']}>Project 3</h4>
-                        <div className={styles['project-desc']}>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Quidem veritatis a vitae excepturi nihil optio, aliquid 
-                                similique culpa debitis tempora.</p>
-                        </div>
-                        <div className={styles['project-techStack']}>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>React</li>
-                            </ul>
-                        </div>
-                        <div className={styles['project-links']}>
-                            <ul>
-                                <li>GitHub</li>
-                                <li>Live Demo</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <ul className={styles["project-links"]}>
+                        <li><a className={styles["project-link"]} 
+                            href="https://github.com/EricMolefe/tmo-portfolio.git" 
+                            target="_blank">
+                            Github</a>
+                        </li>
+                        <li><a className={styles["project-link"]} href="" target="_blank">
+                            Live Demo</a>
+                        </li>
+                    </ul>
                 </div>
                 {/* <div className={styles['project-card']}>
-                    <div className={styles['project-img-container']}>
-                        <img className={styles['project-img']} src={project1IMG} alt="Project 3"/>
+                    <img className={styles['project-img']} src={projectImg1} alt="Project 2 image"/>
+                    <div className={styles["project-info"]}>
+                        <h4 className="section-subtitle">Project 2</h4>
+                        <div className={styles["project-desc"]}>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Nihil minus dignissimos eum in rerum sed voluptatum possimus 
+                                amet molestias recusandae, illum obcaecati officia sequi error.</p>   
+                        </div>
+                        <ul className={styles["project-techstack"]}>
+                            <li className={styles["project-tech"]}>
+                                HTML</li>
+                            <li className={styles["project-tech"]}>
+                                CSS</li>
+                            <li className={styles["project-tech"]}>
+                                JavaScript</li>
+                            <li className={styles["project-tech"]}>
+                                React</li>
+                        </ul>
                     </div>
-                    <div className={styles['project-details']}>
-                        <h4 className={styles['project-title']}>Project 3</h4>
-                        <div className={styles['project-desc']}>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                Quidem veritatis a vitae excepturi nihil optio, aliquid 
-                                similique culpa debitis tempora.</p>
+                    <ul className={styles["project-links"]}>
+                        <li><a className={styles["project-link"]} 
+                            href="https://github.com/EricMolefe/tmo-portfolio.git" 
+                            target="_blank">
+                            Github</a>
+                        </li>
+                        <li><a className={styles["project-link"]} href="" target="_blank">
+                            Live Demo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className={styles['project-card']}>
+                    <img className={styles['project-img']} src={projectImg1} alt="Project 3 image"/>
+                    <div className={styles["project-info"]}>
+                        <h4 className="section-subtitle">Project 3</h4>
+                        <div className={styles["project-desc"]}>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Nihil minus dignissimos eum in rerum sed voluptatum possimus 
+                                amet molestias recusandae, illum obcaecati officia sequi error.</p>   
                         </div>
-                        <div className={styles['project-techStack']}>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>React</li>
-                            </ul>
-                        </div>
-                        <div className={styles['project-links']}>
-                            <ul>
-                                <li>GitHub</li>
-                                <li>Live Demo</li>
-                            </ul>
-                        </div>
+                        <ul className={styles["project-techstack"]}>
+                            <li className={styles["project-tech"]}>
+                                HTML</li>
+                            <li className={styles["project-tech"]}>
+                                CSS</li>
+                            <li className={styles["project-tech"]}>
+                                JavaScript</li>
+                            <li className={styles["project-tech"]}>
+                                React</li>
+                        </ul>
                     </div>
+                    <ul className={styles["project-links"]}>
+                        <li><a className={styles["project-link"]} 
+                            href="https://github.com/EricMolefe/tmo-portfolio.git" 
+                            target="_blank">
+                            Github</a>
+                        </li>
+                        <li><a className={styles["project-link"]} href="" target="_blank">
+                            Live Demo</a>
+                        </li>
+                    </ul>
                 </div> */}
             </div>
         </section>

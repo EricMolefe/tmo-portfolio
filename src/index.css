@@ -1,17 +1,105 @@
-html{
-  scroll-behavior: smooth;
+:root {
+  --bg-main: hsl(240, 5%, 4%);
+  --bg-secondary: hsla(0, 0%, 9%);
+  --bg-third: hsla(0, 0%, 9%, 0.702);
+  --bg-gradient: linear-gradient(320deg, #0a0a0a 20%, #16213e 100%);
+
+  --text-main: hsl(0, 0%, 96%);
+  --text-secondary: hsla(0, 0%, 96%,0.8);
+  --text-third: hsl(0, 0%, 20%);
+  --text-subheading: hsl(25, 76%, 80%);;
+  
+  --color2: hsl(25, 76%, 80%);
+  --chocolate: hsla(34, 78%, 70%);
+  --sandy-brown: hsl(28, 87%, 67%);
+
+  --emerald-green: hsl(165, 100%, 39%);
+
+  --card-border: 0.125rem solid hsla(27, 63%, 92%, 0.1); 
+  --card-border-hover: 0.125rem solid hsla(34, 78%, 70%); 
+  
+  --tag-border: 0.055rem solid hsla(27,63%,92%,.1);
+  --tag-hover: hsla(165, 100%, 44%, 0.05);
+  --img-border: 1px solid #16213e;
 }
 
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: #0A0A0B;
-  color: hsla(34, 78%, 97%);
-  line-height: 1.6;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  overflow-x: hidden;
+html {
+    scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6rem;
+    color: var(--text-main);
+    background-color: var(--bg-main);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.section-header,
+.section-subheader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+  /* margin-bottom: 0.5rem; */
+
+.section-subheader {
+  align-items: start;
+  justify-content: flex-start;
+  color: var(--chocolate);
+  /* background-color: aliceblue; */
+  margin-bottom: 1.4rem;
+}
+
+.section-subtitle {
+  font-size: 0.9rem;
+  color: var(--chocolate);
+  margin-bottom: 0.3rem;
+
+  @media (width>=340px) {
+      font-size: 1rem;
+  }
+  
+  @media (width>=900px) {
+      font-size: 1.1rem;
+  }
+}
+
+.underline {
+  height: 0.25rem;
+  width: 25%;
+  max-width: 42px;
+  background-color: var(--text-main);
+  border-radius: 0.6rem;
+}
+
+.section-subheader .underline {
+  max-width: 32px;
+} 

@@ -1,51 +1,86 @@
 import styles from './styles/About.module.css'
-import sectionpic from './assets/pic2.jpeg'
+import aboutPic from './assets/pic2.jpg'
 
 function About() {
     return(
-        <section id="About" className={styles['about-section']}>
+        <section id="About" className={styles["about-section"]}>
+            
             <div className="section-header">
-                <h2 className="section-title">About Me</h2>
-                <div className="underline"/>
+                <h1 className="section-title">About Me</h1>
+                <div className="underline"></div>
             </div>
-            <div className={styles.about}>
-                <div className={styles['about-left']}>
-                    <div className={styles['about-card-story']}>
-                        <h4 className={styles['about-card-title']}>My Story</h4>
-                        <div className={styles['about-underline']}/>
-                        <div className={styles['about-details']}>
-                            <p> My journey began with curiosity 
-                                about how things work, leading me to explore both the technical
-                                and artistic sides of creation. When I'm not coding, 
-                                you'll find me experimenting with new art mediums.
-                                I believe that the intersection of technology and art creates 
-                                the most compelling and human-centered solutions.</p>
-                            <p> My approach combines clean, efficient code with thoughtful 
-                                design and a touch of creative flair. Every project is an 
-                                opportunity to <i><b>learn, grow, and push boundaries.</b></i> </p>
+
+            <div className={styles["about-container"]}>
+                <div className={`${styles["about-details"]} ${styles.top}`}>
+                    <div className={styles["about-card"]}>
+                        <div className="section-subheader">
+                            <h4 className="section-subtitle">My Story</h4>
+                            <div className="underline"></div>
+                        </div>
+                        <div className={styles['about-message']}>
+                            <p> My journey into tech and design started with a simple curiosity about how things work.
+                            Over time, that curiosity grew into a genuine interest in both the technical side of coding 
+                            and the creative freedom of art. I’ve always enjoyed learning new things, and working in both areas 
+                            allows me to keep exploring and growing.
+                            </p>
+                            <p> I’m especially drawn to the space where technology and creativity meet. I believe that thoughtful, 
+                                well-designed solutions come from balancing functionality with a human touch. Whether I’m writing code 
+                                or sketching out an idea, I try to approach every project with care and attention to detail.
+                            </p>
+                            <p> My focus is on building clean, efficient, and user-friendly applications — while also finding ways to make 
+                                them feel personal and engaging. I'm still learning every day, and I see each new project as an opportunity
+                                to <b><i>learn, grow and push boundaries</i></b>.
+                            </p>
+                            <p> When I’m not coding, I enjoy experimenting with different art mediums, which helps keep me inspired and 
+                                open to new perspectives.
+                            </p>
                         </div>
                     </div>
-                    <div className={styles['about-card']}>
-                        <h4 className={styles['about-card-title']}>Technical Skills</h4>
-                        <div className={styles['about-underline']}/>
-                        <div className={styles['about-details']}>
-                            <ul>
-                                <li className={styles['about-skill']}>Java</li>
-                                <li className={styles['about-skill']}>Python</li>
-                                <li className={styles['about-skill']}>Rust</li>
-                                <li className={styles['about-skill']}>React</li>
-                                <li className={styles['about-skill']}>C++</li>
-                                <li className={styles['about-skill']}>JavaScript</li>
-                            </ul>
-                        </div>
+                    <div className={styles['img-wrapper']}>
+                        <img className={styles['about-img']} src={aboutPic} alt="About picture"/>
                     </div>
                 </div>
-                <div className={styles['about-right']}>
-                    <div className={styles['pic-container']}>
-                        <img className={styles['section-pic']} src={sectionpic} alt="Profile Picture"/>
+                <div className={`${styles["about-details"]} ${styles.bottom}`}>
+                    <div className={`${styles["about-card"]} ${styles.skills}`}>
+                        <div className="section-subheader">
+                            <h4 className="section-subtitle">Programming Languages</h4>
+                            <div className="underline"></div>
+                        </div>
+                        <ul className={styles['skills-list']}>
+                            <li className={styles['skills-item']}>
+                                Java</li>
+                            <li className={styles['skills-item']}>
+                                Python</li>
+                            <li className={styles['skills-item']}>
+                                JavaScript</li>
+                            <li className={styles['skills-item']}>
+                                C++</li>
+                            <li className={styles['skills-item']}>
+                                C#</li>
+                        </ul>
+                    </div>
+                    <div className={`${styles["about-card"]} ${styles.skills}`}>
+                        <div className="section-subheader">
+                            <h4 className="section-subtitle">Tools</h4>
+                            <div className="underline"></div>
+                        </div>
+                        <ul className={styles['skills-list']}>
+                            <li className={styles['skills-item']}>
+                                Git</li>
+                            <li className={styles['skills-item']}>
+                                Linux</li>
+                            <li className={styles['skills-item']}>
+                                Adobe Photoshop / Illustrator</li>
+                            <li className={styles['skills-item']}>
+                                Ableton Live</li>
+                            <li className={styles['skills-item']}>
+                                Splunk</li>
+                            <li className={styles['skills-item']}>
+                                Linux</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>        
     )
 } export default About
