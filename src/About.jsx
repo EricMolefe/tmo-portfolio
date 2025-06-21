@@ -59,6 +59,26 @@ function About() {
                                 C#</li>
                         </ul>
                     </div>
+                    <div className={`${styles["about-card"]} ${styles.skills}`}>
+                        <div className="section-subheader">
+                            <h4 className="section-subtitle">Tools</h4>
+                            <div className="underline"></div>
+                        </div>
+                        <ul className={styles['skills-list']}>
+                            <li className={styles['skills-item']}>
+                                Git</li>
+                            <li className={styles['skills-item']}>
+                                Linux</li>
+                            <li className={styles['skills-item']}>
+                                Adobe Photoshop / Illustrator</li>
+                            <li className={styles['skills-item']}>
+                                Ableton Live</li>
+                            <li className={styles['skills-item']}>
+                                Splunk</li>
+                            <li className={styles['skills-item']}>
+                                Linux</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>        

@@ -21,7 +21,7 @@
 .about-details {
     display: flex;
     flex-direction: column;
-    /* gap: 1.3rem; */
+    gap: 1.3rem;
     height: 100%;
 }
 
@@ -54,6 +54,12 @@
     justify-content: space-around;
     border-radius: 0.6rem;
     gap: 1.6rem;
+}
+.bottom {
+
+    @media (width>=775px) {
+        flex-direction: row;
+    }
 }
 
 .skills {
@@ -99,7 +105,13 @@ li {
         display: block;
         max-width: 100%;
         max-height: 100%;
+        filter: saturate(0);
+        transition: filter .3s ease;
     }
+}
+
+.img-wrapper:hover {
+    filter: saturate();
 }
 
 .about-img {
@@ -108,7 +120,6 @@ li {
     width: auto;
     max-width: 100%;
     max-height: 100%;
-    filter: saturate(0);
     object-fit: cover;
     border-radius: 0.6rem;
 }
