@@ -93,6 +93,7 @@ section {
 .underline {
   height: 0.25rem;
   width: 25%;
+  max-width: 42px;
   background-color: var(--text-main);
   border-radius: 0.6rem;
 }
