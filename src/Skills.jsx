@@ -1,17 +1,4 @@
 import styles from './styles/Skills.module.css'
-<<<<<<< HEAD
-import sectionpic from './assets/pic2.jpeg'
-
-function Skills() {
-    return(
-        <section id="Skills" className={styles['skills-section']}>
-            <div className="section-header">
-                <h2 className="section-title">Technical Skills</h2>
-                <div className="underline"/>
-            </div>
-            <div className={styles.skills}>
-                
-=======
 
 function Skills() {
     return(
@@ -75,7 +62,6 @@ function Skills() {
                             </p> */}
                     </div>
                 </div>
->>>>>>> rebuild
             </div>
         </section>
     )
