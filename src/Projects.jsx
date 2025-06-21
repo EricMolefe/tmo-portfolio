@@ -3,18 +3,16 @@ import projectImg1 from './assets/project1.png'
 
 function Projects() {
     return(
-        <section id="Projects" className={styles["project-section"]}>
-            <div className={styles["section-header"]}>
-                <h1 className={styles["section-title"]}>Projects</h1>
-                <div className={styles["underline"]}></div>
+        <section id="Projects" className={styles["projects-section"]}>
+            <div className="section-header">
+                <h1 className="section-title">Projects</h1>
+                <div className="underline"></div>
             </div>
 
             <div className={styles['projects-container']}>
                 <div className={styles['project-card']}>
-                    <div className={styles['project-img']}>
-                        <img src={projectImg1} alt="Project 1 image"/>
-                    </div>
-                     <div className={styles["project-info"]}>
+                    <img className={styles['project-img']} src={projectImg1} alt="Project 1 image"/>
+                    <div className={styles["project-info"]}>
                         <h4 className={styles["section-subtitle"]}>Project 1</h4>
                         <div className={styles["project-desc"]}>
                             <p>
@@ -33,12 +31,20 @@ function Projects() {
                                 React</li>
                         </ul>
                     </div>
+                    <ul className={styles["project-links"]}>
+                        <li><a className={styles["project-link"]} 
+                            href="https://github.com/EricMolefe/tmo-portfolio.git" 
+                            target="_blank">
+                            Github</a>
+                        </li>
+                        <li><a className={styles["project-link"]} href="" target="_blank">
+                            Live Demo</a>
+                        </li>
+                    </ul>
                 </div>
                 <div className={styles['project-card']}>
-                    <div className={styles['project-img']}>
-                        <img src={projectImg1} alt="Project 1 image"/>
-                    </div>
-                     <div className={styles["project-info"]}>
+                    <img className={styles['project-img']} src={projectImg1} alt="Project 2 image"/>
+                    <div className={styles["project-info"]}>
                         <h4 className={styles["section-subtitle"]}>Project 2</h4>
                         <div className={styles["project-desc"]}>
                             <p>
@@ -57,12 +63,20 @@ function Projects() {
                                 React</li>
                         </ul>
                     </div>
+                    <ul className={styles["project-links"]}>
+                        <li><a className={styles["project-link"]} 
+                            href="https://github.com/EricMolefe/tmo-portfolio.git" 
+                            target="_blank">
+                            Github</a>
+                        </li>
+                        <li><a className={styles["project-link"]} href="" target="_blank">
+                            Live Demo</a>
+                        </li>
+                    </ul>
                 </div>
                 <div className={styles['project-card']}>
-                    <div className={styles['project-img']}>
-                        <img src={projectImg1} alt="Project 1 image"/>
-                    </div>
-                     <div className={styles["project-info"]}>
+                    <img className={styles['project-img']} src={projectImg1} alt="Project 3 image"/>
+                    <div className={styles["project-info"]}>
                         <h4 className={styles["section-subtitle"]}>Project 3</h4>
                         <div className={styles["project-desc"]}>
                             <p>
@@ -81,6 +95,16 @@ function Projects() {
                                 React</li>
                         </ul>
                     </div>
+                    <ul className={styles["project-links"]}>
+                        <li><a className={styles["project-link"]} 
+                            href="https://github.com/EricMolefe/tmo-portfolio.git" 
+                            target="_blank">
+                            Github</a>
+                        </li>
+                        <li><a className={styles["project-link"]} href="" target="_blank">
+                            Live Demo</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>

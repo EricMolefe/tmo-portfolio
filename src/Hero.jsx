@@ -3,7 +3,7 @@ import profilePic from './assets/pic1-cropped.jpg'
 
 function Hero() {
     return (
-        <section className={styles['hero-section']}>
+        <section id="Home" className={styles['hero-section']}>
             <div className={styles['hero-container']}>
                 <img className={styles['profile-img']} src={profilePic} alt="Profile Picture"/>
                 <div className={styles['profile']}>
