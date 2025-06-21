@@ -13,7 +13,7 @@ function Projects() {
                 <div className={styles['project-card']}>
                     <img className={styles['project-img']} src={projectImg1} alt="Project 1 image"/>
                     <div className={styles["project-info"]}>
-                        <h4 className={styles["section-subtitle"]}>Project 1</h4>
+                        <h4 className="section-subtitle">Project 1</h4>
                         <div className={styles["project-desc"]}>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -45,7 +45,7 @@ function Projects() {
                 <div className={styles['project-card']}>
                     <img className={styles['project-img']} src={projectImg1} alt="Project 2 image"/>
                     <div className={styles["project-info"]}>
-                        <h4 className={styles["section-subtitle"]}>Project 2</h4>
+                        <h4 className="section-subtitle">Project 2</h4>
                         <div className={styles["project-desc"]}>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -77,7 +77,7 @@ function Projects() {
                 <div className={styles['project-card']}>
                     <img className={styles['project-img']} src={projectImg1} alt="Project 3 image"/>
                     <div className={styles["project-info"]}>
-                        <h4 className={styles["section-subtitle"]}>Project 3</h4>
+                        <h4 className="section-subtitle">Project 3</h4>
                         <div className={styles["project-desc"]}>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
